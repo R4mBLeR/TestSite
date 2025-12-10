@@ -6,7 +6,7 @@ import bannerImg from "./banner.png";
 const HomePage = () => {
   return (
     <div className={styles.mainPage}>
-      <Banner img={bannerImg}/>
+      <Banner img={bannerImg} />
       <div className={styles.mainPageTitles}>
         <div className={styles.mainPageProductsTitle}>New Products</div>
         <div className={styles.mainPageNewProductsTitles}>

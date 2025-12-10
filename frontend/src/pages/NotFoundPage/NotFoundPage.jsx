@@ -1,10 +1,8 @@
-import React from 'react'
-import './NotFoundPage.css'
+import React from "react";
+import "./NotFoundPage.css";
 
 const NotFoundPage = () => {
-  return (
-    <div className='not-founded'>Page Not Found</div>
-  )
-}
+  return <div className="not-founded">Page Not Found</div>;
+};
 
-export default NotFoundPage
+export default NotFoundPage;
