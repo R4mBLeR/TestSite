@@ -1,0 +1,19 @@
+.mainPage {
+  font-family: "Poppins", sans-serif;
+}
+
+.mainPageTitles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainPageProductsTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.mainPageNewProductsTitles a {
+  color: #0156ff;
+  font-size: 13px;
+  font-weight: 400;
+}
