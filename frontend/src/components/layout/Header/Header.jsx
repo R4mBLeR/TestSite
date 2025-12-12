@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Header.module.css";
-import instagramLogo from "./instagramLogo.png";
-import companyLogo from "./companyLogo.png";
-import cart from "./cart.png";
+import instagramLogo from "../../../assets/instagramLogo.png";
+import companyLogo from "../../../assets/companyLogo.png";
+import cart from "../../../assets/cart.png";
 import { isWorkingTime } from "../../../utils/timeUtils";
 
 const Header = () => {
