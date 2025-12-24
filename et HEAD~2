@@ -1,0 +1,8 @@
+[33mcommit 2bd178386fb13b09c82d8084433b29f212b7f786[m
+Author: R4mBLe_ <misharad2008@gmail.com>
+Date:   Thu Dec 25 00:12:47 2025 +0300
+
+    update gitignore
+
+ .gitignore | 1 [31m-[m
+ 1 file changed, 1 deletion(-)

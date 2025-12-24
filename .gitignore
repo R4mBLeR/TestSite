@@ -1,0 +1,18 @@
+# IDE
+.idea/
+.vscode/
+
+# Backend
+backend/.gradle/
+backend/build/
+backend/*.jar
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.next/
+
+# Общее
+.env
+*.log
+*.db
