@@ -8,7 +8,7 @@ import Banner from "../../components/common/Banner/Banner";
 const HomePage = () => {
   const renderProducts = () => {
     const products = [];
-    for (let i = 1; i <= 5; i++) {
+    for (let i = 1; i < 5; i++) {
       products.push(
         <Product
           name="Смартфон iPhone 15 Pro Max 256GB"
@@ -21,6 +21,19 @@ const HomePage = () => {
         />
       );
     }
+
+    products.push(
+      <Product
+        name="Смартфон iPhone 15 Pro Max 256GB"
+        price={599.99}
+        imageUrl={productPhoto}
+        stock={0}
+        rating={4.8}
+        reviewCount={324}
+        discount={15}
+      />
+    );
+
     return products;
   };
   return (

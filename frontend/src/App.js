@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage/HomePage";
 /*import ProductsPage from './pages/ProductsPage/ProductsPage';
 import CartPage from './pages/CartPage/CartPage';*/
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
+import Footer from "./components/layout/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             </Routes>
           </div>
         </main>
+        <Footer />
       </div>
     </Router>
   );
